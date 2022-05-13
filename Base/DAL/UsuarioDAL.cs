@@ -12,7 +12,7 @@ namespace DAL
             SqlConnection cn = new SqlConnection();
             try
             {
-                cn.ConnectionString = "";
+                cn.ConnectionString = @"User ID=SA;Initial Catalog=Loja;Data Source=.\SQLEXPRESS2019;Password=Senailab05";
                 SqlCommand cmd = new SqlCommand();
                 cmd.Connection = cn;
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -23,7 +23,7 @@ namespace DAL
                     Value = _usuario.Ativo
                 });
 
-                cmd.Parameters.Add (new SqlParameter("@NomrUsuario", SqlDbType.VarChar)
+                cmd.Parameters.Add (new SqlParameter("@NomeUsuario", SqlDbType.VarChar)
                 {
                     Value = _usuario.NomeUsuario
                 });
