@@ -52,10 +52,28 @@
     <Compile Include="FormCadastroUsuario.Designer.cs">
       <DependentUpon>FormCadastroUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormConsultaUsuário.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConsultaUsuário.Designer.cs">
+      <DependentUpon>FormConsultaUsuário.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrincipal.Designer.cs">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormCadastroUsuario.resx">
       <DependentUpon>FormCadastroUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormConsultaUsuário.resx">
+      <DependentUpon>FormConsultaUsuário.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -65,6 +83,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\DataSources\Model.GrupoUsuario.datasource" />
     <None Include="Properties\DataSources\Model.Permissao.datasource" />
@@ -91,6 +110,15 @@
       <Project>{ff4f0f98-762f-4576-bca6-4b8b5ad229a4}</Project>
       <Name>Model</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icone livro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icone livro1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book-in-library-with-open-textbook.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
