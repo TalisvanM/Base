@@ -121,10 +121,19 @@
   <data name="Icone livro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Icone livro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Icone livro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icone livro1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="quadro-negro-com-livro-de-pilha_488220-9873" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\quadro-negro-com-livro-de-pilha_488220-9873.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1000_F_480885964_2L9e4MdSrRKksNgha6wESWRN7jmy8Ry8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1000_F_480885964_2L9e4MdSrRKksNgha6wESWRN7jmy8Ry8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="book-in-library-with-open-textbook" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\book-in-library-with-open-textbook.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icone livro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icone livro1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Foto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Foto.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

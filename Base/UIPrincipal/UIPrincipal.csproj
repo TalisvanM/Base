@@ -120,5 +120,14 @@
   <ItemGroup>
     <None Include="Resources\book-in-library-with-open-textbook.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quadro-negro-com-livro-de-pilha_488220-9873.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1000_F_480885964_2L9e4MdSrRKksNgha6wESWRN7jmy8Ry8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Foto.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

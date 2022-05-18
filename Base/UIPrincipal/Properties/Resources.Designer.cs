@@ -63,9 +63,29 @@ namespace UIPrincipal.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1000_F_480885964_2L9e4MdSrRKksNgha6wESWRN7jmy8Ry8 {
+            get {
+                object obj = ResourceManager.GetObject("1000_F_480885964_2L9e4MdSrRKksNgha6wESWRN7jmy8Ry8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap book_in_library_with_open_textbook {
             get {
                 object obj = ResourceManager.GetObject("book-in-library-with-open-textbook", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Foto {
+            get {
+                object obj = ResourceManager.GetObject("Foto", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -86,6 +106,16 @@ namespace UIPrincipal.Properties {
         internal static System.Drawing.Bitmap Icone_livro1 {
             get {
                 object obj = ResourceManager.GetObject("Icone livro1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap quadro_negro_com_livro_de_pilha_488220_9873 {
+            get {
+                object obj = ResourceManager.GetObject("quadro-negro-com-livro-de-pilha_488220-9873", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

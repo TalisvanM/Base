@@ -17,19 +17,25 @@ namespace UIPrincipal
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void buttonSair_Click(object sender, EventArgs e)
         {
-
+            Close();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void FormConsultaUsuário_KeyDown(object sender, KeyEventArgs e)
         {
-
+            if (e.KeyCode == Keys.Escape)
+            {
+                buttonSair_Click (null, null);
+            }
         }
 
-        private void label1_Click_1(object sender, EventArgs e)
+        private void buttonNovo_Click(object sender, EventArgs e)
         {
-
+            using (FormCadastroUsuario frm = new FormCadastroUsuario())
+            {
+                frm.ShowDialog();
+            }
         }
     }
 }
