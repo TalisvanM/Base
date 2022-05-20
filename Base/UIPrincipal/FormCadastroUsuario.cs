@@ -54,5 +54,10 @@ namespace UIPrincipal
             usuarioBindingSource.AddNew();
             nomeUsuarioTextBox.Focus();
         }
+
+        private void FormCadastroUsuario_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

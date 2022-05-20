@@ -37,7 +37,7 @@ namespace UIPrincipal
             this.buttonExcluir = new System.Windows.Forms.Button();
             this.buttonAlterar = new System.Windows.Forms.Button();
             this.buttonNovo = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBoxBuscar = new System.Windows.Forms.TextBox();
             this.buttonBuscar = new System.Windows.Forms.Button();
             this.usuarioBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.usuarioDataGridView = new System.Windows.Forms.DataGridView();
@@ -62,7 +62,7 @@ namespace UIPrincipal
             // label1
             // 
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 26.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(784, 67);
@@ -101,6 +101,7 @@ namespace UIPrincipal
             this.buttonExcluir.TabIndex = 2;
             this.buttonExcluir.Text = "E&xcluir";
             this.buttonExcluir.UseVisualStyleBackColor = true;
+            this.buttonExcluir.Click += new System.EventHandler(this.buttonExcluir_Click);
             // 
             // buttonAlterar
             // 
@@ -121,14 +122,14 @@ namespace UIPrincipal
             this.buttonNovo.UseVisualStyleBackColor = true;
             this.buttonNovo.Click += new System.EventHandler(this.buttonNovo_Click);
             // 
-            // textBox1
+            // textBoxBuscar
             // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.textBoxBuscar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Location = new System.Drawing.Point(0, 84);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(713, 20);
-            this.textBox1.TabIndex = 2;
+            this.textBoxBuscar.Location = new System.Drawing.Point(0, 84);
+            this.textBoxBuscar.Name = "textBoxBuscar";
+            this.textBoxBuscar.Size = new System.Drawing.Size(713, 20);
+            this.textBoxBuscar.TabIndex = 2;
             // 
             // buttonBuscar
             // 
@@ -139,6 +140,7 @@ namespace UIPrincipal
             this.buttonBuscar.TabIndex = 3;
             this.buttonBuscar.Text = "Buscar";
             this.buttonBuscar.UseVisualStyleBackColor = true;
+            this.buttonBuscar.Click += new System.EventHandler(this.buttonBuscar_Click);
             // 
             // usuarioBindingSource
             // 
@@ -156,6 +158,7 @@ namespace UIPrincipal
             this.dataGridViewTextBoxColumn2,
             this.dataGridViewCheckBoxColumn1});
             this.usuarioDataGridView.DataSource = this.usuarioBindingSource;
+            this.usuarioDataGridView.GridColor = System.Drawing.Color.Silver;
             this.usuarioDataGridView.Location = new System.Drawing.Point(0, 109);
             this.usuarioDataGridView.Name = "usuarioDataGridView";
             this.usuarioDataGridView.Size = new System.Drawing.Size(784, 353);
@@ -188,7 +191,7 @@ namespace UIPrincipal
             this.ClientSize = new System.Drawing.Size(784, 512);
             this.Controls.Add(this.usuarioDataGridView);
             this.Controls.Add(this.buttonBuscar);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBoxBuscar);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.KeyPreview = true;
@@ -219,7 +222,7 @@ namespace UIPrincipal
         private System.Windows.Forms.Button buttonAlterar;
         private System.Windows.Forms.Button buttonNovo;
         private System.Windows.Forms.Button buttonSair;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBoxBuscar;
         private System.Windows.Forms.Button buttonBuscar;
         private System.Windows.Forms.BindingSource usuarioBindingSource;
         private System.Windows.Forms.DataGridView usuarioDataGridView;
