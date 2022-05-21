@@ -60,5 +60,13 @@ namespace UIPrincipal
             usuarioBindingSource.RemoveCurrent();
             MessageBox.Show("Registro excluido com sucesso!");
         }
+
+        private void buttonAlterar_Click(object sender, EventArgs e)
+        {
+            using (FormCadastroUsuario frm = new FormCadastroUsuario(usuarioBindingSource.Current))
+            {
+                frm.ShowDialog();
+            }
+        }
     }
 }
